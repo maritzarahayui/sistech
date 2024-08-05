@@ -50,7 +50,7 @@ p {
   @apply bg-accent text-invert;
 }
 .button-primary:hover {
-  @apply bg-accentDark; /* Gantilah dengan warna gelap dari accent jika ada */
+  @apply bg-accentDark;
 }
 
 .button-secondary {
@@ -59,4 +59,28 @@ p {
 
 .card {
   @apply bg-dark text-pink rounded-2xl p-3;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 64px;
+}
+
+h2 {
+  color: black;
+  font-weight: bold;
+  font-size: 36px;
+  padding-bottom: 12px;
+}
+
+h3 {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+p {
+  color: white;
+  font-weight: lighter;
+  font-size: 20px;
 }

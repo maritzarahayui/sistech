@@ -7,7 +7,7 @@ type CardListProps = {
 
 function CardList({ cards }: CardListProps) {
   return (
-    <div className="flex gap-12">
+    <div className="flex justify-center gap-12 flex-wrap">
       {cards.map((card, index) => (
         <Card key={index} {...card} />
       ))}

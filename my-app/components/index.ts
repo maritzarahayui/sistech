@@ -1,3 +1,4 @@
 export * from "./Button";
 export * from "./Card";
-export * from "./Profile";
+export * from "./Navbar";
+export * from "./Footer";
